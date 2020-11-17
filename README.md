@@ -1,0 +1,9 @@
+# coder
+Package "coder" is a handy code package for Beginners in Python.
+This package includes code to handle a variety of complex tasks, using which you can easily and quickly achieve your programming goals in Python.
+Typically, with the code implementation in this package, all you need to do is create an instance of the corresponding class, and then you'll be able to use the class's methods or properties to do the corresponding action. Of course, some common actions (such as visiting a web site with a specified URL) are encapsulated in a specific function that returns an instance of the corresponding class (such as a response from the web server).
+We think this package may be of great convenience to some Beginners in Python. We welcome programmers to improve on this code package (you can send comments to the source of this code package), so we've created some base classes that you can customize to meet more requirements and inherit from. According to the open source protocol of the code package, you are free to use this code package.
+Below, we will outline the main contents of the current version of this code package and the update plan for subsequent versions.
+Module 01 | coder.string
+Before you do that, you need to know how to use modules. You can import modules through the "import" statement, which is described in detail on many sources.
+If you're an experienced Python programmer, you know that to search out all the substrings in the parent string, you need to use the "re" module. However, the "re" module is too difficult for beginners, so we've encapsulated the find_all function (although its underlying implementation still relies on the "re" module, it works better). Similarly, we encapsulate a number of functions for the string aspect (most of whose return values are container objects). As mentioned above, you can give us feedback on module problems.
